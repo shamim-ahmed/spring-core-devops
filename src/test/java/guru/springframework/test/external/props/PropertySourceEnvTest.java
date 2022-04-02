@@ -25,7 +25,7 @@ public class PropertySourceEnvTest {
         assertEquals("10.10.10.123", fakeJmsBroker.getUrl());
         assertEquals(3330, fakeJmsBroker.getPort().intValue());
         assertEquals("Ron", fakeJmsBroker.getUser());
-        assertEquals("Burgundy", fakeJmsBroker.getPassword());
+        assertEquals("%%}_{&&**$$", fakeJmsBroker.getPassword());
     }
 
 }
